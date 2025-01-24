@@ -13,7 +13,9 @@ const productConfigurations = {
         "Core i3 Computer",
         "Core i5 Computer",
         "Core i7 Computer",
-        "AIO Computer"
+        "AIO Computer",
+        "AMD Computers",
+        "SMPS"
     ],
     server: [
         "Single Processor",
@@ -23,7 +25,8 @@ const productConfigurations = {
         "Blade Server",
         "High End Server",
         "Sun Server",
-        "AIX Server"
+        "AIX Server",
+        "Hard Disk"
     ],
     workstation: [
         "i5 Workstation",
@@ -34,7 +37,8 @@ const productConfigurations = {
         "i9 Workstation",
         "Rendering Workstation",
         "3D Graphics Workstation",
-        "Multi Display Workstation"
+        "Multi Display Workstation",
+        "XEON Processor"
     ],
     storage: [
         "SAN",
@@ -42,7 +46,13 @@ const productConfigurations = {
         "DAS",
         "External HDD",
         "Wireless External HDD",
-        "DAT Tape Drive"
+        "DAT Tape Drive",
+        "External SSD",
+        "Cascade",
+        "Pen Drives",
+        "RAM",
+        
+
     ],
     printerScanner: [
         "Normal Printer",
@@ -171,6 +181,123 @@ const productConfigurations = {
     appleTV: [
         "Apple TV 4K",
         "Apple TV HD"
+    
+    ],
+    Firewall: [
+        "Fortinet",
+        "Sonic Wall",
+        "Palo ALto",
+        "Watchguard",
+        "Sophos",
+        "Cisco",
+        "Juniper",
+        "Cyberoam"
+    ],
+    WIFI: [
+        "D-Link",
+        "Cisco",
+        "Netgear",
+        "TP-Link",
+        "Juniper Netwroks"
+    ],
+    Projector: [
+        "Sony",
+        "Viewsonic",
+        "BENQ",
+        "Epson",
+        "Canon",
+        "Hitachi",
+        "LG"
+    ],
+    CopierMachine: [
+        "Brother",
+        "Xerox",
+        "Canon",
+        "HP",
+        "Konica",
+        "Minolta",
+        "Sharp",
+        "Toshiba",
+        "Epson",
+        "Samsung",
+        "RISO"
+    ],
+    Telephone: [
+        "Corded IP Phones",
+        "Wireless Phones",
+        "COnference Phones",
+        "Video Conferencing Phones",
+        "Call Centre Phones",
+        "Touch Screen Voip Phones"
+    ],
+    VOIPPhone:[
+        "Cisco",
+        "Grandstream",
+        "Polycom",
+        "HP"
+    ],
+    Tablets:[
+        "Samsung",
+        "Lenovo",
+        "HP",
+        "Pixel",
+        "One Plus"
+    ],
+    NetworkDevices:[
+        "Router",
+        "Switches",
+        "Modem",
+        "Access Point"
+    ],
+    Monitor:[
+        "BenQ",
+        "Viewsonic",
+        "Acer",
+        "HP",
+        "Dell",
+        "ASUS",
+        "LG",
+        "Samsung",
+        "MSI",
+        "AOC",
+        "ASUS",
+        "Sony",
+        "Lenovo"
+
+    ],
+    PeripheralDevices:[
+        "Keyboard",
+        "Mouse",
+        "Wireless Mouse",
+        "Webcam",
+        "Speakers",
+        "Headset",
+        "VR",
+        "Gaming Mouse",
+        "Gaming Keyboard",
+        "Gaming Headset",
+        "Mousepads",
+        "Joystick",
+        "Media Card Readers"
+
+    ],
+    GPU:[
+        "Nvidia",
+        "GIGABYTE",
+        "MSI",
+        "Qualcomm",
+        "GeForce"
+        
+    ],
+    Cloud:[
+        "AWS",
+        "Google Cloud",
+        "Microsoft Azure",
+        "IBM Cloud",
+        "Oracle Cloud",
+        "Yotta",
+        "Wework"
+
     ]
 };
 
